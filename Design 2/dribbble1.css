@@ -1,0 +1,187 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+    margin: 10px 20px;
+}
+a:link{
+    text-decoration: none;
+    color: black ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.navbar .Logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: rgb(32, 32, 32);
+    margin: 40px 60px;
+
+}
+.links{
+    color: rgb(41, 38, 38);
+    display: flex;
+    text-align: center;
+}
+.navbar .links .nav-link{
+    padding: 10px 30px;
+    text-align: center;
+    color: black;
+}
+
+.navbar .links .nav-link .h{
+    color: orangered;
+}
+.navbar .links .nav-link .s{
+    background-color: rgb(248, 98, 44);
+    color: white;
+    padding:10px  20px;
+}
+
+.hoverable:hover{
+    background-color: rgb(87, 45, 45);
+    color: rgb(87, 45, 45);
+}
+.columns{
+    margin: 90px 10px;
+    width: 400px;
+    height: 90px;
+    display: flex;
+    padding: 0px 20px;
+    flex: 1;
+}
+
+.items{
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+    padding: 10px;
+    height: 100%;
+}
+
+.items h1{
+    color: rgb(248, 98, 44);
+    margin: 0px 5px;
+    width: 5px;
+    font-weight: 500;
+
+}
+.items p{
+    margin: 0px 5px;
+    color: black;
+
+}
+
+.pic{
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+}
+.cs1{
+    width: 450px;
+    padding: 40px 0px;
+    float: right;
+    height: 900px;
+    display: absolute;
+
+    
+}
+.cs{
+    float: right;
+    width: 450px;
+    padding: 0px 10px;
+    display: absolute;
+    height: 800px;
+    
+
+}
+.co{
+    margin: 0px 80px; 
+
+}
+.title{
+    top: 370px;
+    width: 600px;
+    left: 60px;
+    height: 414px;
+    background-color: rgb(26, 26, 46);
+    position: absolute;
+    
+}
+h1{
+    padding: 10px 30px;
+    color: white;
+    font-weight: 800;
+}
+p{
+    color: white;
+    padding: 10px 30px;
+}
+.col{
+    display: flex;
+}
+.lo{
+    top: 620px;
+    left: 70px;
+    margin: 0px 20px;
+    height: 50px;
+    width: 800px;
+    background-color:white;
+    color: black;
+    position: absolute;
+
+}
+.tags{
+    margin: 10px 0px;
+    color: black;
+    margin: 10px 10px;
+}
+.bali{
+    margin: 10px 0px;
+    color: black;
+    margin: 10px 10px;
+}
+
+.dropbtn {
+    background-color: white;
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+    color: black;
+  }
