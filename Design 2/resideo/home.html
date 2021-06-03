@@ -1,0 +1,520 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    
+    <title>resideo.com</title>
+  </head>
+  <body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light navigation py-3">
+        <div class="container"  id="nav" >
+        <a class="navbar-brand" href="#"><h5><strong>resideo.</strong></h5></a>
+        <a href="#" class="navbar-toggler ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">             
+          <i class="fa fa-user text-dark fa-lg"></i>
+        </a>
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-auto ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pages/bProperty.html">BUY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pages/bProperty.html">RENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">AGENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IDX</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pages/blog.html">BLOG</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DEMO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Pages/contact.html">CONTACT US</a>
+                </li>
+            </ul>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">             
+              <i class="fa fa-user me-5"></i>
+            </a>
+          </div>
+        </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog px-4">
+        <div class="modal-content px-4">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3><strong>Welcome back!</strong></h3>
+            <div class="mx-3 my-3">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="my-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword">            
+              </div>
+              <div class="d-grid gap-2 my-3">
+                <button class="btn bg-dark text-white" type="button">SIGN IN</button>
+              </div>                
+              <div class="d-flex justify-content-center">
+                <u>Forgot password</u>
+
+              </div>        
+              <div class="d-flex mt-3 mb-5 justify-content-center">
+                New to resideo?
+              <u>Create an account</u>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Home-->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card bg-dark text-white">
+              <img src="../resideo/pics/r5.jpg" alt="" id="image">
+              <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.);">
+                <div class="row text-center my-5 py-5">
+                  <h1 class="mt-5 pt-5">Find Your Future Home</h1>
+                  <div class="btn-container py-5 d-flex justify-content-center text-center">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">For Sale</option>
+                          <option value="2">For Rent</option>
+                        </select>
+                      </div>
+                      <div class="col-12 col-md-5 mt-3 mt-md-0">
+                        <form class="d-flex">
+                          <input class="form-control mx-md-3" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                      </div>
+                      <div class="col-12 col-md-1 mt-3 mt-md-0">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-outline-success" type="button"><i class="fa fa-search"></i></button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+          <div class="carousel-item">
+            <div class="card bg-dark text-white">
+              <img src="../resideo/pics/r2.jpg" alt="" id="image">
+              <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.7);">
+                <div class="row text-center my-5 py-5">
+                  <h1 class="mt-5 pt-5">Find Your Future Home</h1>
+                  <div class="btn-container py-5 d-flex justify-content-center text-center">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">For Sale</option>
+                          <option value="2">For Rent</option>
+                        </select>
+                      </div>
+                      <div class="col-12 col-md-5 mt-3 mt-md-0">
+                        <form class="d-flex">
+                          <input class="form-control mx-md-3" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                      </div>
+                      <div class="col-12 col-md-1 mt-3 mt-md-0">
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-outline-success" type="button"><i class="fa fa-search"></i></button>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white">
+              <img src="../resideo/pics/r3.jpg" alt="" id="image">
+              <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.7);">
+                <div class="row text-center my-5 py-5">
+                  <h1 class="mt-5 pt-5">Find Your Future Home</h1>
+                  <div class="btn-container py-5 d-flex justify-content-center text-center">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">For Sale</option>
+                          <option value="2">For Rent</option>
+                        </select>
+                      </div>
+                        <div class="col-12 col-md-5 mt-3 mt-md-0">
+                          <form class="d-flex">
+                            <input class="form-control mx-md-3" type="search" placeholder="Search" aria-label="Search">
+                          </form>
+                        </div>
+                        <div class="col-12 col-md-1 mt-3 mt-md-0">
+                          <div class="d-grid gap-2">
+                            <button class="btn btn-outline-success" type="button"><i class="fa fa-search"></i></button>
+                          </div>                        
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
+    <div class=" container mt-5">
+      <div class="row mt-5">
+        <h2 class="text-black justify-content-start mt-5 mb-4">
+          <strong>Recommended For You</strong>
+        </h2>
+        <p class="text-secondary py-0">Listings we think you’ll love.</p>
+        <div class="owl-carousel owl-theme text-white text-center">
+          <div class="">
+            <div class="card">
+              <img src="../resideo/pics/r3.jpg" alt="" width="100%">
+              <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <h5 class="card-title">Image title</h5>
+                one
+              </div>
+            </div>
+          </div>
+          <div class="mx-2">
+            <div class="card">
+              <img src="../resideo/pics/r5.jpg" alt="" width="100%">
+              <div class="card-img-overlay d-flex justify-content-start" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <a href="#" class="text-white justify-content-start"> 
+                  Modern Residence
+                  %7,995/mo
+                  4bd|2ba|2240sf
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img src="../resideo/pics/r6.jpg" alt="" class="card-img-top">
+              <div class="card-img-overlay d-flex justify-content-start" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <a href="#" class="text-white justify-content-start"> 
+                  Modern Residence
+                  %7,995/mo
+                  4bd|2ba|2240sf
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img src="../resideo/pics/r3.jpg" alt="" class="card-img-top">
+              <div class="card-img-overlay d-flex align-items-end justify-content-start" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <a href="#" class="text-white justify-content-start"> 
+                  Modern Residence
+                  %7,995/mo
+                  4bd|2ba|2240sf
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img src="../resideo/pics/r5.jpg" alt="" class="card-img-top">
+              <div class="card-img-overlay d-flex align-items-end justify-content-start" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <a href="#" class="text-white justify-content-start"> 
+                  Modern Residence
+                  %7,995/mo
+                  4bd|2ba|2240sf
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ms-2 me-2">
+            <div class="card">
+              <img src="../resideo/pics/r1.jpg" alt="" class="card-img-top">
+              <div class="card-img-overlay d-flex align-items-end justify-content-start" style="background-color: rgba(0, 0, 0, 0.4);"> 
+                <a href="#" class="text-white justify-content-start"> 
+                  Modern Residence
+                  %7,995/mo
+                  4bd|2ba|2240sf
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <a href="#"><h5 class="text-dark ">
+            <strong>BROWSE ALL</strong>
+          </h5></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-5 mt-5">
+      <div class="row" style="background-image: url(http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/services-h-fig-1920x1280.jpg);">
+        <div class="d-flex justify-content-center text-center py-5">
+          <div class="align-content-start my-5 pb-5">
+            <h3 class="text-dark">Why Choose Us</h3>
+          <p class="text-secondary">We offer perfect estates services</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row mx-5 px-5">
+            <div class="col-lg-3">
+              <div class="card mx-0">
+               <a href="#" class="text-dark">
+                <div class="row m-5">
+                  <img src="http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/services-1-200x200.png" alt="Find your future home">            
+                </div>
+                <div class="card-body text-center px-0">
+                  <div class="row">
+                    <h5 class="card-title">Find Your Future Home</h5>
+                  <p class="card-text text-secondary"><small>We help you find a new home by offering a small real estate experience</small> </p>
+                  </div>
+                </div>
+               </a>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="row m-5">
+                  <img src="http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/services-2-200x200.png" alt="Experienced agents">            
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Experienced agents</h5>
+                  <p class="card-text text-secondary"><small>Find an experienced agent who knows your market best</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="row m-5">
+                  <img src="http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/services-3-200x200.png" alt="Buy or rent homes">            
+                </div>
+                <div class="card-body text-center px-0">
+                  <h5 class="card-title">Buy or rent homes</h5>
+                  <p class="card-text text-secondary">Millions of houses and apartments in your favourite cities</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="row m-5">
+                  <img src="http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/services-4-200x200.png" alt="List your own property">            
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">List your own property</h5>
+                  <p class="card-text text-secondary">Sign up now and sell or rent your own properties</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container my-4">
+      <div class="row">
+        <h2 class="text-dark">Explore Our Neighborhoods</h2>
+      <p class="">Browse our comprehensive neighbor listings</p>
+      </div>
+      <div class="row mt-2">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-2 shadow bg-body rounded">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="#">
+                        <h5 class="card-title">Marina District</h5>
+                    </a>
+                    <p class="card-text">San Franscico</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-2 shadow bg-body rounded">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="#">
+                        <h5 class="card-title">Sea Cliff</h5>
+                    </a>
+                    <p class="card-text">San Franscico</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card mb-2 shadow bg-body rounded">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <a href="#">
+                        <h5 class="card-title">Noe Valley</h5>
+                    </a>
+                    <p class="card-text">San Franscico</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card mb-2 shadow bg-body rounded">
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                  alt="Card image cap">
+              <div class="card-body">
+                  <a href="#">
+                      <h5 class="card-title">Sunset District</h5>
+                  </a>
+                  <p class="card-text">San Franscico</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card mb-2 shadow bg-body rounded">
+              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                  alt="Card image cap">
+              <div class="card-body">
+                  <a href="#">
+                      <h5 class="card-title">Pacific Heights</h5>
+                  </a>
+                  <p class="card-text">San Franscico</p>    
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card mb-2 shadow bg-body rounded">
+              <img class="card-img-top " src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                  alt="Card image cap">
+              <div class="card-body">
+                  <a href="#">
+                      <h5 class="card-title">Mission District</h5>
+                  </a>
+                  <p class="card-text">San Franscico</p>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="row my-5">
+        <a href="#"><h5 class="text-dark ">
+          <strong>EXPLORE NEIGHBORHOODS</strong>
+          <strong data-mdb-animation-start="onLoad">--</strong>
+        </h5>
+      </a>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <div class="container-fluid text-center text-md-start">
+      <div class="row mt-4 py-5">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-5">
+          <h2 class="fw-bold mb-4 text-dark">
+              resideo.
+          </h2>
+          <p class="mb-5">
+              90 Fifth Avenue, 3rd Floor 
+              San Francisco, CA 1980
+              (123) 456-7890
+          </p>
+              <p class="mt-5">
+              <a href="#"><i class="fab fa-instagram fa-2x "></i></a>
+              <a href="#"><i class="fab fa-facebook-square fa-2x mx-3"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+              </p>
+          <p class="mt-4">            
+              © 2020 Resideo.
+          </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-5 text-dark">
+          <h4 class="text-dark fw-bold mb-4">
+              Company
+          </h4>
+          <p>
+              <a href="#!" class="text-reset">Agents</a>
+          </p>
+          <p>
+              <a href="Pages/bProperty.html" class="text-reset">Property Search</a>
+          </p>
+          <p>
+              <a href="Pages/blog.html" class="text-reset">Blog</a>
+          </p>
+          <p>
+              <a href="Pages/contact.html" class="text-reset">Contact Us</a>
+          </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-5 text-dark">
+          <h4 class="fw-bold mb-4">
+              Services
+          </h4>
+          <p>
+              <a href="Pages/bProperty.html" class="text-reset">Buy Properties</a>
+          </p>
+          <p>
+              <a href="Pages/bProperty.html" class="text-reset">Rent Properties</a>
+          </p>
+          <p>
+              <a href="Pages/bProperty.html" class="text-reset">Sell Properties</a>
+          </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-5 text-dark ">
+          <h4 class="fw-bold mb-4">
+              Explore
+          </h4>
+          <p>
+              <a href="bProperty.html" class="text-reset">Homes for Rent</a>
+          </p>
+          <p>
+              <a href="bProperty.html" class="text-reset">Appartment for Rent</a>
+          </p>
+          <p>
+              <a href="bProperty.html" class="text-reset">Homes for Sales</a>
+          </p>
+          <p>
+              <a href="bProperty.html" class="text-reset">Appartments for Sales</a>
+          </p>
+          </div>
+      </div>
+      </div>
+
+  <!-- Copyright -->
+  </footer>
+<!-- Footer -->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+  
+  </body>
+</html>

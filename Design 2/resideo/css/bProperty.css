@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.owl-carousel .card-img-overlay{
+    width: auto;
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+@media only screen and (min-width: 0px) {
+    .owl-prev{
+        left: -5px;
+    }
+    .owl-next{
+        right: -5px;
+    }
+    
+    .owl-prev , .owl-next{
+        position: absolute;
+        top: 50px;
+    } 
+    .owl-prev span, .owl-next span{
+        font-size: 80px;
+        color: black;
+    }
+    .owl-theme, .owl-nav[class*="owl-"]:hover{
+        background-color:transparent;
+        color: black;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .owl-prev{
+        left: -30px;
+    }
+    .owl-next{
+        right: -30px;
+    }
+    
+    .owl-prev , .owl-next{
+        position: absolute;
+        top: 50px;
+    } 
+    .owl-prev span, .owl-next span{
+        font-size: 80px;
+        color: black;
+    }
+    .owl-theme, .owl-nav[class*="owl-"]:hover{
+        background-color:transparent;
+        color: black;
+    }
+    
+}

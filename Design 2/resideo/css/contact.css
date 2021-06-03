@@ -1,0 +1,15 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#header{
+    background-image: url(http://pixelprime.co/themes/resideo-wp/demo-1/wp-content/uploads/2020/07/contact-bg-1920x1280.jpg);
+    height: 500px;
+}
+#float{
+    position: relative;
+    bottom: 200px;
+}
